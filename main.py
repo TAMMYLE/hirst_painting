@@ -48,9 +48,8 @@ for i in range(10):
     tim.hideturtle()
     tim.penup()
     tim.setpos(start_x, start_y + line_height * i)
-    tim.showturtle()
     straight_line()
-
+    
 # create new screen that can behave what we need
 screen = turtle.Screen()
 screen.exitonclick() 
